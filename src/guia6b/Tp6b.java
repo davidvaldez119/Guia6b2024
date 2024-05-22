@@ -114,7 +114,8 @@ public class Tp6b {
 	   aux=sc.nextInt();
 	   
 	   List<Person>arrayPerson= new ArrayList<>();
-	   TreeMap<Integer, String> map=new TreeMap<Integer, String>();
+	   TreeMap<Integer, String> map=new TreeMap<>(Comparator.reverseOrder);
+
 	   for (int i=0;i<aux;i++) 
 	   {
 		   Scanner sn=new Scanner(System.in);
